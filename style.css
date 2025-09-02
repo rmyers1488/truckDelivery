@@ -1,0 +1,20 @@
+﻿.title {
+    color: yellow;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.section {
+    border-radius: 3px;
+    border:1px solid black;
+    background-color: lightgreen;
+    padding: .5em;
+    margin: .5em;
+    color: blue;
+}
+
+.box {
+    background-color: red;
+}

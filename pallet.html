@@ -1,0 +1,46 @@
+﻿dd<!DOCTYPE html>
+
+<!--<html lang="en" xmlns="http://www.w3.org/1999/xhtml">-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" src="./style.css" />
+    <title>Pallet Tracker</title>
+</head>
+<body>
+    <h1 class="title">Truck Arrival Time, Pallets, Watermelons and Potatos</h1>
+    <div class="section">
+        <label for="time">Time</label>
+        <input type="time" placeholder="00:00 00" class="time" />
+        <label for="day">day</label>
+        <select id="day" name="day">
+            <option value="Null">null</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wendnesday">Wednesday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+        <label for="pallet" class="box">Pallet #</label>
+        <input type="number" class="pallet box" size="1em" min="1" max="30"/>
+        <label for="boxes">Boxe(s)</label>
+        <input type="number" class="number box" size="3em" min="100" max="1000"/>
+        <label for="watermelon">Watermelon(s)</label>
+        <input type="number" class="watermelon box" size="1em" min="1" max="15"/>
+        <label for="potato">Potato(s)</label>
+        <input type="number" class="potato box" size="1em" min="1" max="5"/>
+    
+    </div>
+    <button class="add" onclick="addEntry()">Add Pallet</button>
+    <button class="average" onclick="averages()">Averages</button>
+
+    <ul class="arival">
+        
+    </ul>
+    
+    <ul class="averages">
+
+    </ul>
+</body>
+<script src="script1.js"></script>
+</html>
