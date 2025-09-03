@@ -64,8 +64,7 @@ function display() {
 //display averages
 function displayAverages(average) {
     //time: clock, pallets: palletAverage, boxes: boxAverage
-    let display = 0;
-    display += `<li class='list'>Average Arrival Time: ${average[0].time},
+    let display = `<li class='list'>Average Arrival Time: ${average[0].time},
         average number of pallets: ${average[0].pallets}, average number of
         boxes: ${average[0].boxes}</li>
     <li class='list'>Average Monday Arrival Time: ${average[1].time},
@@ -293,6 +292,7 @@ function averages() {
     console.log(totalAverage, monAverage, wedAverage, satAverage, sunAverage);
     displayAverages(averages);
 }
+
 
 
 
