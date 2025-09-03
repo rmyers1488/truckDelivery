@@ -8,6 +8,7 @@ function addEntry() {
     let day = document.querySelector('#day').value;
     let pallets = document.querySelector('#pallets').value;
     let boxes = document.querySelector('#boxes').value;
+    let pumpkin = document.querySelector('#pumpkins').value;
     let watermelon = document.querySelector('#watermelon').value;
     let potato = document.querySelector('#potato').value;
     console.log(time, day, pallets, boxes, watermelon, potato);
@@ -292,4 +293,5 @@ function averages() {
     console.log(totalAverage, monAverage, wedAverage, satAverage, sunAverage);
     displayAverages(averages);
 }
+
 
